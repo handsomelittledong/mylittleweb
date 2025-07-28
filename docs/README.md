@@ -9,7 +9,20 @@ struct CollisionPlugin{}
 ```rust
 impl Plugin for CollisionPlugin{
     fn build(&self, app: &mut App){
-        app.add_systems(FixedUpdate,check_collision);
+        app.add_systems(FixedUpdate,(check_collision,update_collidable_enities));
+    }
+}
+```
+
+* 实现其余部分
+```rust
+impl CollisionPlugin{
+    fn check_collision(){
+        todo()!
+    }
+    
+    fn update_collidable_enities(){
+        todo()!
     }
 }
 ```
