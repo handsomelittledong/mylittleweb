@@ -28,7 +28,7 @@ impl CollisionPlugin{
 ```
 
 
-我们从最简单的入手
+我们从最简单的入手\n
 即AABB的碰撞检测
 
 为了优化我们可以使用SAP算法
