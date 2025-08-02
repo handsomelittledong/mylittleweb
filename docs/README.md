@@ -20,7 +20,7 @@ impl CollisionPlugin{
     fn check_collision(){
         todo()!
     }
-    
+
     fn update_collidable_enities(){
         todo()!
     }
