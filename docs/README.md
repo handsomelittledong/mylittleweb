@@ -14,7 +14,7 @@ impl Plugin for CollisionPlugin{
 }
 ```
 
-* 实现其余部分
+* 声明其余部分
 ```rust
 impl CollisionPlugin{
     fn check_collision(){
@@ -40,3 +40,19 @@ impl CollisionPlugin{
 >如果两个包围盒在一个坐标上没有重合就意味着:
 >
 >**不可能发生碰撞，从而不进行另一个坐标的计算**
+
+# 现在我们需要声明一个组件
+
+```rust
+[derive(Component)]
+struct Collidable;
+
+[derive(Component)]
+struct IsStatic
+```
+
+# 接下来，声明一个资源以存放
+
+```rust
+
+```
