@@ -41,7 +41,7 @@ impl CollisionPlugin{
 >
 >**不可能发生碰撞，从而不进行另一个坐标的计算**
 
-# 现在我们需要声明一个组件
+## 现在我们需要声明一个组件
 
 ```rust
 [derive(Component)]
@@ -51,7 +51,7 @@ struct Collidable;
 struct IsStatic
 ```
 
-# 接下来，声明一个资源以存放
+## 接下来，声明一个资源以存放
 
 ```rust
 
